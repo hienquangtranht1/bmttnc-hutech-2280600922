@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatWindow</class>
+ <widget class="QWidget" name="ChatWindow">
+  <property name="windowTitle">
+   <string>Chat UI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="chatBox">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatWindow</class>
+ <widget class="QWidget" name="ChatWindow">
+  <property name="windowTitle">
+   <string>Chat UI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="chatBox">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item

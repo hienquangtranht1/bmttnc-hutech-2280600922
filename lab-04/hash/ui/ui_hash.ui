@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HashGUI</class>
+ <widget class="QWidget" name="HashGUI">
+  <property name="windowTitle">
+   <string>Hash Functions GUI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_algo">
+     <property name="text">
+      <string>Chọn thuật toán băm:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="combo"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="inputBox">
+     <property name="placeholderText">
+      <string>Nhập chuỗi cần băm...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="hashButton">
+     <property name="text">
+      <string>Băm</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_result">
+     <property name="text">
+      <string>Kết quả:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="resultBox">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

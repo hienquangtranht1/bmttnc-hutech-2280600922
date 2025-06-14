@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AppWindow</class>
+ <widget class="QWidget" name="AppWindow">
+  <property name="windowTitle">
+   <string>DH Key Pair Application</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="run_server_button">
+     <property name="text">
+      <string>Run Server</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="run_client_button">
+     <property name="text">
+      <string>Run Client</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="output_display"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
